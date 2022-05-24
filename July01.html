@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+     *{
+         margin:0;
+         Padding:0;
+         box-sizing:border-box;
+     }
+     .parent{
+             width:100vw;
+             height:100vh;
+             Display:flex;
+             justify-content:space-around;
+             align-items:center;
+             position:relative;
+     }
+    .facebook{
+               width:60px;
+               height:60px;
+               border-radius:50%;
+               background-color:#3b5998;
+               position:absolute;
+               box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+               -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+               -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+               
+    } 
+   .facebook p{
+                  position:absolute;
+                  top:50%;
+                  left:50%;
+                  transform:translate(-50%,-50%);
+   }
+  .instagram{
+             width:60px;
+             height:60px;
+             border-radius:50%;
+             background-color:#3f729b;
+             display:grid;
+             place-items:center;
+             box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+             -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+             -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  .twitter{
+                     width:60px;
+                     height:60px;
+                     border-radius:50%;
+                     background-color:#1DA1F2;
+                     display:grid;
+                     place-items:center;
+                     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                   
+  } 
+ .twitter:hover{
+          background-color:white;
+          color:#1DA1F2;
+ }
+.facebook:hover{
+               background-color:#3b5998;
+               color:white;
+}
+.instagram:hover{
+          background-color:white;
+         color: #FD1D1D;
+
+}
+    </style>
+</head>
+
+<body>
+  <div class="parent">
+<div class="facebook"><p><i class="fab fa-facebook-f" class="face"></i></p></div>
+<div class="instagram"><i class="fab fa-instagram"></i></div>
+<div class="twitter"><i class="fab fa-twitter"></i></div>
+</div>
+</body>
+
+</html>
